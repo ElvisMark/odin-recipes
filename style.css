@@ -8,7 +8,7 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: darkseagreen;
 }
-.home-page img {
+img {
     width: 300px;
     display: block;
     margin-left: auto;
