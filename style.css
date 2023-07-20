@@ -1,36 +1,69 @@
 *{
     line-height: 1.5;
+    padding: opx;
+    margin: 0px;
+    box-sizing: border-box;
 }
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: darkseagreen;
 }
-.image1{
-    display:block;
+.home-page img {
+    width: 300px;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
 }
-.link-list ul{
+h1 {
+    text-align: center;
+    color: orangered;
+    margin-top: 0px;
+}
+h2 {
+    font-size: 20px;
+    color: crimson;
+}
+p {
+    margin-bottom: 20px;
+}
+ul {
     list-style: none;
 }
-strong{
-    color: darkolivegreen;
+.home-page {
+    width: 600px;
+    background-color: white;
+    margin: 20px auto;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
 }
-.container h1{
-    color:aqua;
-    text-align: center;
-    font-weight: bold;
+.about-page {
+    padding: 20px;
+    display: inline-block; 
+    width: 580px;
+    vertical-align: top;
 }
-#container{
-    border: 1px solid black;
+.home-page a{
+    text-transform: uppercase;
 }
-.about-content a{
-    color: purple;
+.home-page .property{
+    border: 2px solid darkred;
 }
-.chicken-sandwich h1{
-    color: aqua;
-}
-.image1-sandwich{
-    width: 100px;
+.link-list {
+    display: flex; 
+    list-style: none; 
+    padding: 0; 
+  }
+  
+  .link-list li {
+    display: flex; 
+    margin: 10px; 
+  }
 
-}
+  .link-list a {
+    display: block; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    color: #333; 
+  }
+  
