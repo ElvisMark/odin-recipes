@@ -66,4 +66,28 @@ ul {
     text-decoration: none; 
     color: #333; 
   }
-  
+  .chicken-sandwich img{
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .chicken-sandwich{
+    background-color: white;
+    width: 800px;
+    margin: 30px auto;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
+  }
+  h3{
+    font-size: 18px;
+  }
+  h4{ 
+    font-size: 15px;
+    color: tomato;
+  }
+  .recipe-ingredients {
+    padding: 20px;
+    display: inline-block; 
+    width: 580px;
+    vertical-align: top;
+  }
